@@ -6,3 +6,16 @@ font-size: 5.5rem;
 .sp-offer {
     font-size: 5rem;
 }
+
+.treatments_grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(800px,2fr));
+    justify-items: center;
+    align-items: center;
+}
+
+
+
+.price-title {
+    margin-bottom: 0px;
+}

@@ -62,12 +62,7 @@
         margin-left: 4em;
     }
     
-    #hero-title {
-        font-size:4.5rem;
-    }
-    
     #hero-content {
-        font-size:2.25rem;
         max-width: 45ch;
     }
     
@@ -133,4 +128,9 @@
         .owner-detail {
             font-family: Poppins;
             color: #F62AA0;
+        }
+
+        .card-image {
+            height: 650px;
+            object-fit: cover;
         }

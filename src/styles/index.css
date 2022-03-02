@@ -150,3 +150,32 @@
   .products {
     background-color: #F62AA0;
   }
+  /* Opening times grid */
+  .opening-times {
+    display: grid;
+    grid-template-columns: 1fr 3.5fr 1fr;
+    grid-template-areas: ". block .";
+  }
+
+  .block {
+    grid-area: block;
+    background-color: var(--dark);
+    border-radius: 10px;
+  }
+
+  .content-text {
+    display: flex;
+    justify-content:space-around;
+  }
+
+  .days {
+    list-style-type: none;
+  }
+
+  .times {
+    list-style-type: none;
+  }
+
+  .closed {
+    color: rgb(219, 89, 89);
+  }
