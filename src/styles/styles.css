@@ -126,7 +126,7 @@ transform: scale(1, 1);
     transition: opacity 250ms ease-in-out 250ms;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1000px) {
     .nav-toggle-label {
         display: none;
     }
@@ -173,7 +173,7 @@ transform: scale(1, 1);
     }
 }
 
-@media (min-width: 1800px) {
+@media (min-width: 1900px) {
 .logo {
     font-size: 3rem;
 }
@@ -226,7 +226,6 @@ p {
     padding-top:1em;
     padding-left:4em;
     padding-right:2em;
-    
   }
   .gridnew {
     padding:3em;
@@ -312,7 +311,7 @@ p {
   @media (min-width: 400px) {
     p { font-size: calc(1rem + 1vw); }
     h2 { font-size: calc(3rem + 1vw);}
-    h2 { font-size: calc(4rem + 1vw);}
+    h1 { font-size: calc(4rem + 1vw);}
   }
   
   @media (min-width: 1001px){

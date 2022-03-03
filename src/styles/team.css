@@ -1,7 +1,7 @@
 .cards {
     display: grid;
     grid-template-columns: repeat(auto-fit,
-    minmax(500px,1fr));
+    minmax(300px,1fr));
     padding: 20px;
     grid-gap: 40px;
     text-align: center;
